@@ -132,7 +132,7 @@ main section h2{
     gap: 20px;
     flex-wrap: wrap;
     list-style-type: none;
-    
+    padding: 0px;
 }
 
 .bubble-list li {
