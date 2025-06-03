@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+
+html {
+    --utah-red: #BE0000;
+    --grey: #cccccc;
+    --light-grey: #e6e6e6;
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header #header-content {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    width: 95%;
+    max-width: 1500px;
+}
+
+header #header-content h1 {
+    font-size: 3rem;
+    color: black;
+    margin: 0px;
+}
+
+header #header-content img {
+    height: 80%;
+}
+
+main {
+    gap: 30px;
+    margin: 40px 0px;
+    width: 95%;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+#bio > img {
+    height: 400px;
+    border-radius: 1.4rem;
+}
+
+#bio #contact {
+    list-style-type: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    align-self: stretch;
+}
+
+#bio #contact li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    gap: 30px; 
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#bio #contact li img{
+    width: 40px;
+}
+
+#about p{
+    font-size: 1.6rem;
+    text-align: center;
+    width: 70%;
+    margin: 0px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+main section h2{
+    font-size: 2.7rem;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    border: 6px solid var(--grey);
+    border-radius: 1.4rem;
+}
+
+#class-list ul.bubble-list li{
+    width: 40%;
+    min-width: 350px;
+}
+
+#class-list ul.bubble-list {
+    min-width: 350px;
+}
+
+.bubble-list {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.bubble-list li {
+    padding: 20px;
+    border-radius: 1.4rem;
+    font-size: 1.4rem;
+    background-color: var(--light-grey);
+}
+
+@media (max-width: 800px){
+    #bio {
+        flex-direction: column;
+    }
+
+    #bio #contact {
+        justify-content: center;
+        align-items: start;
+        width: fit-content;
+        align-self: center;
+    }
+
+    #bio #contact li{
+        flex-grow: 0;
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 396.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+      }
+    </style>
+  </defs>
+  <g id="Isolation_Mode" data-name="Isolation Mode">
+    <g>
+      <polygon class="cls-2" points="248.87 0 248.87 236.25 91.13 0 0 0 0 396.76 91.13 396.76 91.13 160.51 248.87 396.76 340 396.76 340 0 248.87 0"/>
+      <g>
+        <polygon class="cls-1" points="0 0 91.13 396.76 0 396.76 0 0"/>
+        <polygon class="cls-1" points="248.87 0 340 396.76 248.87 396.76 248.87 0"/>
+        <polygon class="cls-1" points="91.13 0 248.87 396.76 91.13 160.51 91.13 0"/>
+      </g>
+    </g>
+  </g>
+</svg>
